@@ -1,0 +1,13 @@
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\bin\Debug\ExcelAddIn2.dll
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\bin\Debug\ExcelAddIn2.pdb
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\bin\Debug\ExcelAddIn2.dll.manifest
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\bin\Debug\ExcelAddIn2.vsto
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddInProject.csproj.AssemblyReference.cache
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddIn2.Properties.Resources.resources
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddIn2.Ribbon1.resources
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddInProject.csproj.GenerateResource.cache
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddInProject.csproj.CoreCompileInputs.cache
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAdd.77FF9F98.Up2Date
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddIn2.dll
+C:\Users\Safar\Downloads\Continental Practice\Continental_Practice_Repository\Excel_AddIn_Project\obj\Debug\ExcelAddIn2.pdb

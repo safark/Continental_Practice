@@ -1,0 +1,13 @@
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\bin\Debug\ExcelAddIn2.dll
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\bin\Debug\ExcelAddIn2.pdb
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\bin\Debug\ExcelAddIn2.dll.manifest
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\bin\Debug\ExcelAddIn2.vsto
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.csproj.AssemblyReference.cache
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.Properties.Resources.resources
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.csproj.GenerateResource.cache
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.csproj.CoreCompileInputs.cache
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAdd.5884BEDB.Up2Date
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.dll
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.pdb
+C:\Users\Safar\Downloads\Continental Practice\ExcelAddIn2\obj\Debug\ExcelAddIn2.Ribbon1.resources
