@@ -17,41 +17,50 @@ namespace ExcelAddIn2
 
         private void exportCsv_Click(object sender, RibbonControlEventArgs e)
         {
-
-            // Getting the active worksheet from Excel
+            // getting worksheet
             var sheet = Globals.ThisAddIn.Application.ActiveSheet as Excel.Worksheet;
 
-            
             var range = sheet.UsedRange;
 
-            // Initialize string builder for CSV file contents
+            //initialize sb
             var sb = new StringBuilder();
 
-            // first loop thru row then column
-            for (int r =1; r<=range.Rows.Count; r++)
+            for (int r = 1; r <= range.Rows.Count; r++)
             {
-                for (int c = 1; c<= range.Columns.Count; c++)
+                for (int c = 1; c <= range.Columns.Count; c++)
                 {
-                    // add cell value to string builder
-                    sb.Append(range.Cells[r, c].Value2);
+                    // get cell value (it kept crashing when null)
+                    var value = range.Cells[r, c].Value2;
+                    sb.Append(value != null ? value.ToString() : "");
 
-                    // if not the last row, add comma
-                    if (c != range.Columns.Count) sb.Append(",");
+                    // add commas to separate columns
+                    if (c != range.Columns.Count)
+                        sb.Append(",");
                 }
 
-                // add \n character
+                // newline char in data file
                 sb.AppendLine();
             }
 
-            //export 
             System.IO.File.WriteAllText(@"C:\Temp\export.csv", sb.ToString());
 
-            //export successful message
             System.Windows.Forms.MessageBox.Show("Success! Exported to C:\\Temp\\export.csv");
-
-
-            //end of button1 bracket
+        }
+        private void AutoFit_Click(object sender, RibbonControlEventArgs e)
+        {
+            var sheet = Globals.ThisAddIn.Application.ActiveSheet;
+            // autofit is built into excel
+            // used range is any cell to any cell that has data
+            sheet.UsedRange.Columns.Autofit();
+            System.Windows.Forms.MessageBox.Show("The colmuns have been auto fitted.");
         }
 
+        private void Clear_Click(object sender, RibbonControlEventArgs e)
+        {
+            var sheet = Globals.ThisAddIn.Application.ActiveSheet as Excel.Worksheet;
+            sheet.Cells.Clear();
+
+            System.Windows.Forms.MessageBox.Show("The data has been cleared.");
+        }
     }
 }

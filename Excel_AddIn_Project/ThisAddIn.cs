@@ -14,13 +14,13 @@ namespace ExcelAddIn2
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            MessageBox.Show("Hello Mr. Koussan It has loaded properly!");
+            MessageBox.Show("All your AddIns are available in the AddIn section!");
             
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
-            MessageBox.Show("Goodbye!");
+            MessageBox.Show("Goodbye! Thanks for using these cool AddIns");
         }
 
         #region VSTO generated code

@@ -37,6 +37,8 @@
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.Export = this.Factory.CreateRibbonButton();
+            this.AutoFit = this.Factory.CreateRibbonButton();
+            this.Clear = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group1.SuspendLayout();
             this.SuspendLayout();
@@ -51,6 +53,8 @@
             // group1
             // 
             this.group1.Items.Add(this.Export);
+            this.group1.Items.Add(this.AutoFit);
+            this.group1.Items.Add(this.Clear);
             this.group1.Label = "Awesome Buttons";
             this.group1.Name = "group1";
             // 
@@ -59,6 +63,18 @@
             this.Export.Label = "Export to CSV";
             this.Export.Name = "Export";
             this.Export.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.exportCsv_Click);
+            // 
+            // AutoFit
+            // 
+            this.AutoFit.Label = "AutoFit";
+            this.AutoFit.Name = "AutoFit";
+            this.AutoFit.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.AutoFit_Click);
+            // 
+            // Clear
+            // 
+            this.Clear.Label = "Clear ALL";
+            this.Clear.Name = "Clear";
+            this.Clear.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Clear_Click);
             // 
             // Ribbon1
             // 
@@ -79,6 +95,8 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton Export;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton AutoFit;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton Clear;
     }
 
     partial class ThisRibbonCollection
